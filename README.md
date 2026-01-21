@@ -35,13 +35,7 @@ Built entirely on Cloudflare's Developer Platform:
 
 ### System Architecture
 
-```
-User Request → Cloudflare Workers → D1 Database (feedback storage)
-                      ↓
-                Workers AI (sentiment + themes)
-                      ↓
-                Updated Data → Dashboard
-```
+![Architecture Diagram](architecture-diagram.png)
 
 ### Tech Stack
 
